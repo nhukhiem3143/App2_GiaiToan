@@ -547,7 +547,8 @@ app/src/main/
     </LinearLayout>
 </ScrollView>
 ```
-<img width="1740" height="967" alt="image" src="https://github.com/user-attachments/assets/49ab4724-11bf-4e92-bc35-ab89b5a9c178" />
+<img width="1731" height="973" alt="image" src="https://github.com/user-attachments/assets/344547ee-f723-49d6-a246-8669cee1cf5c" />
+
 
 
 ### 5.3 Layout Activity 3 – `res/layout/activity_webview.xml`
@@ -579,7 +580,8 @@ app/src/main/
 
 </LinearLayout>
 ```
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5014716d-3922-4602-86c0-b74470f43d09" />
+<img width="1728" height="962" alt="image" src="https://github.com/user-attachments/assets/e93cf09c-4ea4-4553-bd5c-38110b282aed" />
+
 
 ---
 
@@ -1029,7 +1031,8 @@ Hoặc: Shift + F10
 → Chọn thiết bị → OK
 ```
 
-> *(Chèn ảnh: chọn thiết bị để run)*
+<img width="1717" height="862" alt="image" src="https://github.com/user-attachments/assets/727c2474-25dc-4620-9a05-4227730e0628" />
+
 
 ### 10.4 Test từng chức năng
 
@@ -1040,10 +1043,11 @@ Hoặc: Shift + F10
 ☐ Nút "Xem Web" → chuyển sang Activity 3
 ☐ Nút Back trên thiết bị hoạt động bình thường
 ```
+<img width="1763" height="981" alt="image" src="https://github.com/user-attachments/assets/ca180f02-9f4b-45a1-90b6-3233728005cb" />
 
 **Test Activity 2 – Giải Toán:**
 ```
-☐ Nhập a=1, b=-5, c=6 → kết quả: x1=3.0, x2=2.0
+☐ Nhập a=1, b=5, c=6 → kết quả: x1=3.0, x2=2.0
 ☐ Nhập a=1, b=2, c=5  → kết quả: Vô nghiệm (Δ < 0)
 ☐ Nhập a=1, b=-2, c=1 → kết quả: Nghiệm kép x=1.0
 ☐ Nhập a=0, b=2, c=4  → kết quả: Một nghiệm x=-2.0
@@ -1051,8 +1055,9 @@ Hoặc: Shift + F10
 ☐ Sau khi giải → trạng thái API hiện "Đang gửi..."
 ☐ Vài giây sau → API trả về "✅ Thành công! ok=1, stt=XXXX"
 ```
+<img width="372" height="579" alt="image" src="https://github.com/user-attachments/assets/8b5232bc-d227-4afe-bf21-ab52f9eab03d" />
 
-> *(Chèn ảnh: kết quả giải toán trên thiết bị)*
+
 
 **Test Activity 3 – WebView:**
 ```
