@@ -1061,58 +1061,17 @@ Hoặc: Shift + F10
 
 **Test Activity 3 – WebView:**
 ```
-☐ Trang web load được (cần có Internet)
-☐ URL hiển thị đúng: https://k58kmt.tdh.io.vn?masv=MSSV_CỦA_BẠN
++ Trang web load được (cần có Internet)
+☐ URL hiển thị đúng: https://k58kmt.tdh.io.vn?masv=k225480106030
 ☐ ProgressBar hiện khi đang load, ẩn khi xong
 ☐ Nút Back thiết bị: nếu đã điều hướng trong web → goBack()
 ☐ Nút Back trên ActionBar → về AboutActivity
 ```
+<img width="525" height="841" alt="image" src="https://github.com/user-attachments/assets/cce9aaec-b5fc-4e17-a636-4468e29bfa42" />
 
-> *(Chèn ảnh: WebView hiển thị trang web)*
-
-### 10.5 Kiểm tra API bằng Log
-
-Mở **Logcat** trong Android Studio (Alt+6) để xem log:
-
-```
-Filter: tag = "API" hoặc search "GiaiToan"
-```
-
-> *(Chèn ảnh: Logcat hiển thị kết quả API)*
 
 ---
 
-## Hình Ảnh Minh Hoạ
-
-> *(Chèn ảnh theo từng bước)*
-
-| Bước | Mô tả | Ảnh |
-|---|---|---|
-| Bước 1 | Tạo project – điền thông tin | *(chèn ảnh)* |
-| Bước 4 | Tạo 3 Activity – cấu trúc package | *(chèn ảnh)* |
-| Bước 9 | AndroidManifest.xml hoàn chỉnh | *(chèn ảnh)* |
-| Bước 10 | App chạy – Activity 1 About | *(chèn ảnh)* |
-| Bước 10 | App chạy – Activity 2 Giải Toán + kết quả API | *(chèn ảnh)* |
-| Bước 10 | App chạy – Activity 3 WebView | *(chèn ảnh)* |
-
----
-
-## Tổng Kết
-
-### Những gì đã làm được
-
-| Kỹ thuật | Áp dụng |
-|---|---|
-| **3 Activity** | Mỗi Activity một chức năng riêng biệt |
-| **Intent** | Điều hướng giữa các Activity |
-| **AndroidManifest** | Khai báo Activity, quyền Internet |
-| **OkHttp POST** | Gửi JSON lên server API |
-| **Background Thread** | Gọi mạng không block UI |
-| **runOnUiThread** | Cập nhật UI từ background thread |
-| **WebView** | Hiển thị trang web trong app |
-| **WebViewClient** | Xử lý loading, back navigation |
-| **Resources** | `@string`, `@color` – không hardcode |
-| **Event Handling** | `setOnClickListener` + Lambda |
 
 ### JSON gửi lên API
 
